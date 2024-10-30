@@ -7,15 +7,20 @@ This repo is designed to simulate machine learning use cases in detecting churn 
 5. data drift prediction using evidently
 6. orchestration using airflow
 ---
-## key feature
+## kscenario
 This project assumes that :
 1. we are a data science team
 2. receive customer data every certain period from the data engineer
 3. we need to do :
   a. preprocess the data so that our data can be used to make a prediction
+
   b. make predictions about churn customer
+
   c. check the data drift to ensure our model is still reliable
+
   d. present the result in dashboard
+
+  ![scenario](./img/scenario.png)
 ---
 ## Tools used
 1. mlflow
@@ -28,4 +33,4 @@ This project assumes that :
 8. seaborn
 ---
 ## Workflow
-...
+![workflow](img/workflow.png)
